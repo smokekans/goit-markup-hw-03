@@ -1,0 +1,230 @@
+:root {
+    --primary-text-color: #FFFFFF;
+    --title-text-colot: #212121;
+    --accent-color: #757575;
+    --accent-text-color: #2196f3;
+    --special-background-color: #2F303A;
+    --team-background-color: #F5F4FA;
+    --contact-text-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    background-color: var(--primary-text-color);
+    color: var(--title-text-colot);
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+ul {
+    list-style: none;
+}
+
+/*колір текста (чорний): #212121;*/
+/*колір текста (синій): #2196F3;*/
+/*колір текста (сірий): #757575;*/
+/*колір логотипу: синій: #2196F3; чорний: #000000*/
+/*колір фону (шапка, футер): #2F303A;*/
+/*колір пошти та номера в футері: rgba(255, 255, 255, 0.6);*/
+/*колір кнопки: #188CE8;*/
+
+.header {
+    background-color: var(--primary-text-color);
+}
+
+.logo {
+    color: var(--title-text-colot);
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.logo-color {
+    color: var(--accent-text-color);
+    font-family: Raleway;
+}
+
+.site-nav .link {
+    color: var(--title-text-colot);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-text-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-text-color);
+}
+
+.contact-nav .link {
+    color: var(--accent-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.contact-nav .link:hover, 
+.contact-nav .link:focus {
+    color: var(--accent-text-color);
+}
+
+.hero {
+    background-color: var(--special-background-color);
+}
+
+.hero-title {
+    color: var(--primary-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-button {
+    background-color: var(--accent-text-color);
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+
+.hero-button:focus, 
+.hero-button:hover {
+    color: var(--primary-text-color);
+}
+
+.features-title {
+    color: var(--title-text-colot);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.features-text {
+    color: var(--accent-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.action-title {
+    color: var(--title-text-colot);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.team {
+    background-color: var(--team-background-color)
+}
+
+.team-title {
+    color: var(--title-text-colot);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.team-name {
+    color: var(--title-text-colot);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.card-name {
+    color: var(--title-text-colot);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+.team-position {
+    color: var(--accent-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.card-filter {
+    color: var(--accent-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+}
+
+.filters-button {
+    color: var(--title-text-colot);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    cursor: pointer;
+}
+
+.filters-button:hover,
+.filters-button:focus {
+    background-color: var(--accent-text-color);
+    color: var(--primary-text-color);
+}
+
+.card-background {
+    background-color: var(--primary-text-color);
+}
+
+.footer {
+    background-color: var(--special-background-color);
+}
+
+.footer-logo {
+    color:var(--primary-text-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.footer-data {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+}
+
+.footer-address {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+.footer-contact {
+    color: var(--contact-text-color);
+    text-decoration: none;
+}
+.footer-address:focus,
+.footer-address:hover,
+.footer-contact:focus, 
+.footer-contact:hover {
+    color: var(--accent-text-color);
+}
