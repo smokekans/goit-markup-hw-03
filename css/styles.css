@@ -348,6 +348,7 @@ image {
     margin-left: 30px;
     margin-bottom: 30px;
 
+
     background-color: var(--primary-text-color);
     width: 370px;
     height: 404px;
@@ -356,18 +357,20 @@ image {
 }
 
 .card-name {
+    margin: 20px 24px 5px;
+
     color: var(--title-text-colot);
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    text-align: center;
 }
 
 .card-filter {
+    margin: 0 24px 20px;
+
     color: var(--accent-color);
     line-height: 1.88;
     letter-spacing: 0.03em;
-    text-align: center;
 }
 
 /* FOOTER */
