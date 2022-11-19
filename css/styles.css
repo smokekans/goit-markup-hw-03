@@ -394,19 +394,15 @@ img {
     text-decoration: none;
 }
 
-.footer-data {    
+.footer-data {
     font-style: normal;
-}
-
-.footer-list {
-    margin-bottom: 9px;
 }
 
 .footer-address {
     display: block;
     color: var(--primary-text-color);
     text-decoration: none;
-    margin-top: 9px;
+    margin-top: 20px;
         
     font-size: 14px;
     line-height: 1.71;
