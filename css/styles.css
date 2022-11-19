@@ -377,7 +377,11 @@ img {
 .footer-logo-color {
     color: var(--accent-text-color);
     font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 .footer-logo {
@@ -390,8 +394,7 @@ img {
     text-decoration: none;
 }
 
-.footer-data {
-    
+.footer-data {    
     font-style: normal;
 }
 
