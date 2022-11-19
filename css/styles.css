@@ -326,8 +326,6 @@ img {
 
 .filter-button:hover,
 .filter-button:focus {
-    padding: 6px 25px;
-
     background-color: var(--accent-text-color);
     color: var(--primary-text-color);
 }
