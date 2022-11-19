@@ -239,7 +239,7 @@ img {
 }
 
 .action-list {
-    display: inline-flex;
+    display: flex;
     padding: auto 0;
     gap: 30px;
 }
@@ -346,11 +346,11 @@ img {
 
     background-color: var(--primary-text-color);
     width: 370px;
-    border: 1px solid #EEEEEE;
 }
 
 .card-text {
-    margin: 20px 24px;
+    padding: 20px 24px;
+    border: 1px solid #EEEEEE;
 }
 
 .card-name {
@@ -391,11 +391,7 @@ img {
 }
 
 .footer-data {
-    margin-top: 20px;
-
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+    
     font-style: normal;
 }
 
@@ -404,13 +400,25 @@ img {
 }
 
 .footer-address {
+    display: block;
     color: var(--primary-text-color);
     text-decoration: none;
+    margin-top: 9px;
+        
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .footer-contact {
+    display: block;
     color: var(--contact-text-color);
     text-decoration: none;
+    margin-top: 9px;
+    
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .footer-address:focus,
