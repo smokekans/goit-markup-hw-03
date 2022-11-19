@@ -347,7 +347,7 @@ image {
 .card {
     margin-left: 30px;
     margin-bottom: 30px;
-
+    padding: 0;
 
     background-color: var(--primary-text-color);
     width: 370px;
@@ -398,11 +398,14 @@ image {
 
 .footer-logo, .footer-logo-color {
     display: flex;
+    flex-shrink: 1;
     padding-top: 60px;
 }
 
 .footer-data {
     margin-top: 20px;
+    padding-bottom: 60px;
+
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
