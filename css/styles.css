@@ -47,9 +47,6 @@ img {
     overflow: hidden;
 }
 
-.hidden-header {
-    display: none;
-}
 /*колір текста (чорний): #212121;*/
 /*колір текста (синій): #2196F3;*/
 /*колір текста (сірий): #757575;*/
@@ -70,6 +67,7 @@ img {
 .section {
     padding: 94px 0;
 }
+
 /* HEADER  */
 
 .header {
@@ -352,9 +350,6 @@ img {
 }
 
 .card {
-    padding: 0;
-    margin-bottom: 20px;
-
     background-color: var(--primary-text-color);
     width: 370px;
 }
